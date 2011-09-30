@@ -7,3 +7,13 @@ You'll need to clone the Springockito project and then
 mvn clean install
 
 to install the jar so the gradle build file can pick the jar up from your local Maven repo.
+
+For more reference unit test for Ehcache+Terracotta, checkout the Ehcache source:
+
+svn checkout http://svn.terracotta.org/svn/ehcache/trunk ehcache
+
+and browse to
+
+ehcache/core/src/test/java/net/sf/ehcache/terracotta
+
+for the Ehcache+Terracotta unit tests
