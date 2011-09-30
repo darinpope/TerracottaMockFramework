@@ -27,7 +27,7 @@ public class TerracottaToolkitTest {
     private ClusteredAtomicLong mockAtomicLong;
 
     @Before
-    public void setUpBeforeClass() throws Exception {
+    public void before() throws Exception {
 
         BlockingQueue queue = new LinkedBlockingQueue();
 
