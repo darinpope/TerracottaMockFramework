@@ -1,0 +1,9 @@
+This project has a dependency on Springockito:
+
+https://bitbucket.org/kubek2k/springockito/wiki/Home
+
+You'll need to clone the Springockito project and then
+
+mvn clean install
+
+to install the jar so the gradle build file can pick the jar up from your local Maven repo.
